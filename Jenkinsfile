@@ -32,7 +32,7 @@ post {
     failure {
         echo ' this runs when pipeline is failed, used generally to send some alerts'
     }
-    success{
+    success {
         echo 'i will say  hello  when pipeline is success'
     }
 }
