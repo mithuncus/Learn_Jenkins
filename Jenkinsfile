@@ -30,7 +30,7 @@ pipeline {
                     echo " $GREETINGS"
                     """
             }
-        }
+        
     }
 
     // Post build
