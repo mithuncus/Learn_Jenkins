@@ -41,6 +41,7 @@ pipeline {
                     echo "Here I wrote.... shell script"
                     echo " $GREETINGS"
                     env
+                    #sleep 10
                     """
             }
         }
