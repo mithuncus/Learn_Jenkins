@@ -42,7 +42,6 @@ pipeline {
                     echo " $GREETINGS"
                     env
                     #sleep 10
-                    env
                     """
             }
         }
