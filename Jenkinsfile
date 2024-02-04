@@ -31,7 +31,7 @@ pipeline {
                     env
                     """
             }
-        
+        }
     }
 
     // Post build
