@@ -22,9 +22,8 @@ pipeline {
             }
         }
     }
-}
 
-//Post build
+    // Post build
 post {
     always {
         echo 'I will always say hello again'
@@ -35,4 +34,7 @@ post {
     success {
         echo 'i will say  hello  when pipeline is success'
     }
+
 }
+}
+
