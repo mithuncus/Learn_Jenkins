@@ -44,6 +44,7 @@ pipeline {
                     env
                     #sleep 10
                     echo "print I am learning jenkins"
+                    env
                     """
             }
         }
