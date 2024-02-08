@@ -5,11 +5,7 @@ pipeline {
             
         }
     }
-  options {
-        ansiColor('xterm')
-        // timeout(time: 1, unit: 'HOURS')
-        // disableConcurrentBuilds()
-    }
+  
     environment {
         GREETINGS= 'Hello Jenkins'
     }
